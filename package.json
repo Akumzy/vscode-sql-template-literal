@@ -1,13 +1,13 @@
 {
-  "name": "vscode-inline-sql",
-  "displayName": "Inline SQL",
-  "description": "Syntax highlighting for sql in template literals",
-  "version": "0.1.4",
-  "publisher": "jtladeiras",
+  "name": "vscode-prisma-raw-query-sql",
+  "displayName": "Prisma raw query SQL",
+  "description": "Syntax highlighting for Prisma sql raw query",
+  "version": "0.0.1",
+  "publisher": "Akumzy",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Ladeiras/vscode-sql-template-literal.git"
+    "url": "https://github.com/Akumzy/vscode-sql-template-literal.git"
   },
   "engines": {
     "vscode": "^1.5.0"
