@@ -2,8 +2,9 @@
 
 Syntax highlighting for code like:
 
-```js
-const query = /*sql*/`SELECT * FROM users`;
+```ts
+const query = prisma.$rawQuery`SELECT * FROM users`;
+const query = prisma.$rawQuery<User[]>`SELECT * FROM users`;
 ```
 
 ## Publishing
